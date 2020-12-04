@@ -64,7 +64,7 @@ class _MainScreenState extends State<MainScreen> {
           padding: const EdgeInsets.all(10.0),
           child: Container(
               padding: EdgeInsets.fromLTRB(10,10,10, 150),
-              child: Center(child: Text(message,style: mainText,))
+              child: Center(child: SelectableText(message,style: mainText,))
           ),
         ),
       ),
